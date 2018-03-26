@@ -58,7 +58,7 @@
     "standard": "^11.0.0"
   },
   "dependencies": {
-    "@pigalle/core.base.class": "^0.6.2",
+    "@pigalle/core.base.klass": "^0.6.3",
     "lodash": "^4.17.5"
   }
 }

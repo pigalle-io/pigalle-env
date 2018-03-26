@@ -1,0 +1,26 @@
+workInProgress: true
+credits:
+#  - package:
+#      name: Nunjucks
+#      url: https://mozilla.github.io/nunjucks/
+#      license: '[Copyright (c) 2012-2015, James Long, BSD License](https://github.com/mozilla/nunjucks/blob/master/LICENSE)'
+#    author:
+#      name: James Long
+#      url: https://github.com/mozilla/
+copyright:
+  year: 
+  author:
+    name: SAS 9 Février
+    url: https://9fevrier.com/
+
+example: |
+  const {PigalleEnv} = require('@pigalle/core.env')
+
+  const data = {
+    NODE_ENV: 'production',
+    SECRET_KEY: 'my_secret_key'
+  }
+
+  // Create a {PigalleEnv} instance to store environment variables.
+  const env = PigalleEnv.factory(data)
+

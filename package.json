@@ -47,7 +47,6 @@
     "gulp": "^3.9.1",
     "gulp-docgen4-node-readme": "^0.1.3-alpha4",
     "gulp-load-plugins": "^1.5.0",
-    "gulp-mustache-plus": "^1.0.1",
     "gulp-rename": "^1.2.2",
     "js-yaml": "^3.11.0",
     "jsdoc-to-markdown": "^4.0.1",
